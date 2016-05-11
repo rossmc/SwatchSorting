@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Rossmc_SwatchSorting>
+      <version>0.1.0</version>
+    </Rossmc_SwatchSorting>
+  </modules>
+  <global>
+    <helpers>
+      <swatchsorting>
+        <class>Rossmc_SwatchSorting_Helper</class>
+      </swatchsorting>
+    </helpers>
+	<models>
+	  <swatchsorting>
+		<class>Rossmc_SwatchSorting_Model</class>
+		<resourceModel>swatchsorting_mysql4</resourceModel>
+	  </swatchsorting>
+			<catalog_resource>
+				<rewrite>
+					<product_type_configurable_attribute_collection>Rossmc_SwatchSorting_Model_Catalog_Resource_Product_Type_Configurable_Attribute_Collection</product_type_configurable_attribute_collection>
+				</rewrite>
+			</catalog_resource>
+	</models>
+  </global>
+</config> 
